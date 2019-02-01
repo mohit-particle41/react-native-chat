@@ -13,4 +13,3 @@ export default class TcdChat extends Component {
       }
 }
 
-export default RNReactNativeChat;
