@@ -1,6 +1,16 @@
 
+import React from 'react'
 import { NativeModules } from 'react-native';
 
 const { RNReactNativeChat } = NativeModules;
 
-export default RNReactNativeChat;
+export default class TcdChat extends Component {
+    render() {
+        console.log("^^^^^^^^^^^^^",RNReactNativeChat)
+        return (
+         <React.Fragment />
+        );
+      }
+}
+
+// export default RNReactNativeChat;
