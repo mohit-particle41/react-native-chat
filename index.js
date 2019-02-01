@@ -1,5 +1,5 @@
 
-import React from 'react'
+import React, {Component} from 'react'
 import { NativeModules } from 'react-native';
 
 const { RNReactNativeChat } = NativeModules;
@@ -13,4 +13,4 @@ export default class TcdChat extends Component {
       }
 }
 
-// export default RNReactNativeChat;
+export default RNReactNativeChat;
