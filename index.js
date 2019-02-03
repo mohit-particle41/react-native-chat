@@ -6,7 +6,9 @@ const { RNReactNativeChat } = NativeModules;
 
 export default class TcdChat extends Component {
     render() {
-        console.log("^^^^^^^^^^^^^",RNReactNativeChat)
+        RNReactNativeChat.pingMe(str => {
+            console.log("5555555555",str)
+        })
         return (
             <View>
             <Text>Inside Chat Lib</Text>
