@@ -8,8 +8,8 @@ export default class TcdChat extends Component {
     render() {
         console.log("^^^^^^^^^^^^^",RNReactNativeChat)
         return (
-            <View style={styles.container}>
-            <Text style={styles.instructions}>Inside Chat Lib</Text>
+            <View>
+            <Text>Inside Chat Lib</Text>
           </View>
         );
       }
